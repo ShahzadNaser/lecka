@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include lecka *.css
+recursive-include lecka *.csv
+recursive-include lecka *.html
+recursive-include lecka *.ico
+recursive-include lecka *.js
+recursive-include lecka *.json
+recursive-include lecka *.md
+recursive-include lecka *.png
+recursive-include lecka *.py
+recursive-include lecka *.svg
+recursive-include lecka *.txt
+recursive-exclude lecka *.pyc
