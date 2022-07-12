@@ -97,6 +97,12 @@ app_license = "MIT"
 #	}
 # }
 
+doc_events = {
+    "Delivery Note": {
+        "on_submit": "lecka.events.sales_order.on_submit",
+    }
+}
+
 # Scheduled Tasks
 # ---------------
 
